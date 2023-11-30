@@ -1,7 +1,7 @@
 import AcordionComponent from "../accordion/Index";
 import { Formulario } from "../formulario/Index";
 
-import farinha from '../../assets/FarinhaCamarao.webp'
+import farinha from '../../assets/oleo.webp'
 import phone from '../../assets/phone-call.png'
 import mail from '../../assets/email.png'
 import BasicTable from "../table/Index";
@@ -91,7 +91,7 @@ export default function Section2() {
                     <Formulario />
                 </div>
                 
-                <img src={farinha} alt="ilustração de um dalmata" className="w-[400px] h-[253px] hidden xl:block" data-aos="fade-left" data-aos-duration="1500"/>
+                <img src={farinha} alt="ilustração de um dalmata" className="w-[400px] hidden xl:block rounded" data-aos="fade-left" data-aos-duration="1500"/>
             </div>
 
 
